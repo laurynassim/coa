@@ -1,0 +1,18 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+table tbody tr:nth-child(even) {
+  background: blue;
+}
+table tbody tr:nth-child(odd) {
+  background: red;
+}
+td:nth-child(odd) {
+  background: yellow;
+}
+
+table tbody tr :nth-child(odd) {
+  background: green;
+}

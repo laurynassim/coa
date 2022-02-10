@@ -1,0 +1,44 @@
+body {
+  background-color: beige;
+}
+
+.container {
+  width: 80%;
+  margin: 1rem auto;
+  align-items: center;
+  background-color: coral;
+  padding: 10px 20px;
+}
+#logo {
+  padding: 10px;
+  display: inline-block;
+  font-size: large;
+  font-weight: 800;
+}
+#nav {
+  padding: 10px;
+  float: right;
+  padding: 10px;
+  font-size: large;
+  font-weight: 800;
+}
+#center {
+  font-size: 0;
+  width: 80%;
+  margin: 1rem auto;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  font-size: 16px;
+  background-color: coral;
+  height: 300px;
+}
+.box {
+  width: 33%;
+  display: inline-block;
+  padding: 10px;
+  box-sizing: border-box;
+  vertical-align: top;
+}

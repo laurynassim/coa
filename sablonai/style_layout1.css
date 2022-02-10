@@ -1,0 +1,43 @@
+body {
+  background-color: aqua;
+}
+
+.container {
+  width: 80%;
+  margin: 1% auto;
+  align-items: center;
+  background-color: coral;
+  padding: 10px 20px;
+}
+
+.center {
+  font-size: 0;
+  width: 80%;
+  height: 200px;
+  overflow: hidden;
+  margin: 1% auto;
+}
+h2 {
+  text-align: center;
+}
+.block_small {
+  width: 30%;
+  display: inline-block;
+  padding: 10px;
+  box-sizing: border-box;
+  height: inherit;
+}
+.block_big {
+  width: 70%;
+  display: inline-block;
+  padding: 10px;
+  box-sizing: border-box;
+  height: inherit;
+}
+.content {
+  background-color: coral;
+  height: inherit;
+  font-size: 25px;
+  font-weight: 600;
+}
+/* pasidaryti header ir body 80%, imti marginams remus  */

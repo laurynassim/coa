@@ -1,0 +1,17 @@
+.left {
+  display: inline-block;
+  background-color: green;
+}
+.left-first {
+  background-color: red;
+}
+.left .left-second {
+  background-color: burlywood;
+}
+.right {
+  display: inline-block;
+  background-color: beige;
+}
+.right div {
+  background-color: red;
+}

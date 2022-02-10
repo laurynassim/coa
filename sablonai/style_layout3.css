@@ -1,0 +1,56 @@
+body {
+  background-color: bisque;
+}
+
+header main footer {
+  width: 80%;
+}
+.container1 {
+  margin: 1% auto;
+  background-color: grey;
+  height: 50px;
+}
+.container2 {
+  margin: 1% auto;
+  height: 100px;
+}
+#side_bar {
+  display: inline-block;
+  box-sizing: border border-box;
+}
+
+#side_bar::before {
+  content: attr(data-hover);
+  visibility: hidden;
+  opacity: 0;
+  width: max-content;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 5px;
+  transition: opacity 1s ease-in-out;
+
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 110%;
+}
+
+#header {
+  float: right;
+  background-color: grey;
+  height: inherit;
+  width: 60%;
+  box-sizing: border-box;
+}
+.container3 {
+  height: 200px;
+}
+
+#body_area {
+  float: right;
+  background-color: grey;
+  width: 60%;
+  height: inherit;
+}

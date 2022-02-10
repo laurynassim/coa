@@ -1,0 +1,65 @@
+.menu-logo {
+  float: left;
+}
+
+.menu-main {
+  float: right;
+  padding: 10px;
+}
+
+.nav {
+  background-color: lightblue;
+  overflow: hidden;
+}
+.main {
+  justify-content: center;
+  display: grid;
+  background-color: lightblue;
+}
+
+.content-image {
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+#middle {
+  width: 75%;
+  display: inline-block;
+  vertical-align: top;
+}
+main {
+  background-color: lightblue;
+  padding-bottom: 30px;
+}
+section {
+  display: inline-block;
+  background-color: lightblue;
+  width: 30%;
+  margin-right: 20px;
+  margin-left: 10px;
+  vertical-align: top;
+}
+ul {
+  list-style: none;
+  display: inline-flex;
+}
+footer {
+  margin-top: 20px;
+  background-color: lightblue;
+  align-content: center;
+}
+.footer_div {
+  text-align: center;
+}
+.footer_div ul {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+}
+.footer_div li {
+  padding: 2px 5px;
+}
+h3,
+h2 {
+  text-align: center;
+}

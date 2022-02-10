@@ -1,0 +1,27 @@
+form {
+   background-color: #D3BE25;
+}
+
+.make-space {
+    margin: 10px 20px;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-blue {
+    color: blue;
+}
+
+#categories,
+#for_other_person {
+    display: none;
+}
+
+.center {
+    margin: auto;
+    width: fit-content;
+    padding: 10px;
+    background-color: #4c5684;
+}

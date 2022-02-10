@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Title musu custom</title>
+    <style>
+      form {
+        padding: 20px;
+        background-color: antiquewhite;
+        width: fit-content;
+        margin: 50px auto;
+      }
+      [type="submit"] {
+        width: 50px;
+        transition: width 5s;
+        transition-timing-function: ease-in-out;
+      }
+      [type="submit"]:hover {
+        color: red;
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="#">
+      <label for="name">Vardas</label>
+      <input type="text" id="name" placeholder="irasyti varda" required />
+      <br />
+      <br />
+      <label for="email">El. pastas</label>
+      <input type="email" id="email" />
+      <br />
+      <br />
+      <label for="password">Slaptazodis</label>
+      <input type="password" id="password" />
+      <br />
+      <br />
+      <button class="glow-on-hover" type="button">
+        HOVER ME, THEN CLICK ME!
+      </button>
+      <input type="submit" />
+    </form>
+  </body>
+</html>

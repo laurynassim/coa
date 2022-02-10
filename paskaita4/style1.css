@@ -1,0 +1,64 @@
+header {
+  overflow: auto;
+  position: relative;
+}
+h1,
+h3 {
+  float: left;
+  margin: 0;
+}
+nav {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 20px;
+  margin: auto;
+}
+header nav ul {
+  margin: 0;
+}
+header nav ul li {
+  display: inline-block;
+}
+footer {
+  text-align: center;
+}
+form {
+  display: inline-block;
+  width: 49%;
+  align-self: center;
+  vertical-align: top;
+}
+
+.short {
+  display: inline-block;
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.long {
+  display: block;
+  width: 412px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.form {
+  font-weight: bold;
+  text-align: center;
+}
+::placeholder {
+  color: blue;
+}
+input.left,
+input.right {
+  border: solid 2px rgb(4, 14, 4);
+  align-self: center;
+  display: block;
+  margin: 0 auto;
+  position: fixed;
+}
+
+input {
+  border: solid 2px red;
+}
