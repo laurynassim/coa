@@ -1,0 +1,71 @@
+body div {
+  margin: 2% auto;
+  width: 100%;
+}
+
+.green {
+  background-color: rgb(48, 180, 48);
+  height: 30px;
+}
+.yellow {
+  background-color: yellow;
+  height: 60px;
+}
+.blue {
+  background-color: rgb(8, 96, 211);
+  height: 150px;
+}
+.grey {
+  background-color: rgb(216, 197, 197);
+  height: 60px;
+}
+@media only screen and (min-width: 768px) {
+  .blue {
+    height: 30px;
+  }
+  .yellow {
+    height: 150px;
+  }
+
+  .grey {
+    flex: 0 0 49%;
+  }
+  .third {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .space {
+    width: 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .first,
+  .second,
+  .third {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .green {
+    flex: 0 0 49%;
+    height: 60px;
+  }
+
+  .blue {
+    height: 150px;
+    flex: 0 0 33%;
+  }
+  .yellow {
+    height: 200px;
+  }
+  .grey {
+    flex: 0 0 24%;
+    height: 100px;
+  }
+  .space .space2 {
+    width: 10px;
+  }
+}

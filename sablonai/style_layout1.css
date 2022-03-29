@@ -41,3 +41,15 @@ h2 {
   font-weight: 600;
 }
 /* pasidaryti header ir body 80%, imti marginams remus  */
+
+@media only screen and (max-width: 500px) {
+  .block_small,
+  .block_big {
+    display: block;
+    background-color: chartreuse;
+  }
+
+  body {
+    overflow: scroll;
+  }
+}
